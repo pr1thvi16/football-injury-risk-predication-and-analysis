@@ -59,6 +59,18 @@ pytest                                       # tests (48)
 ```
 Options: `--split-strategy random_stratified`, `--threshold-strategy fixed|val_f1|val_youden|val_recall_target`, `--seed N`. Settings (risk categories, sizes, learning rate...) live in `config/config.yaml`.
 
+
+## Paper-faithful pipeline and real-data path (`src/paper`)
+The IEEE-paper architecture (per-modality MLP encoders -> 16-d embeddings -> logistic-regression fusion head, 7 baselines, Youden threshold, bootstrap CIs, permutation Shapley) is in `src/paper/`; the PyTorch GRU model above is an **extension**, not the paper's model.
+```bash
+python -m src.paper.run generate      # SYNTHETIC tables + player-weeks
+python -m src.paper.run train         # train + evaluate (results/paper/)
+python -m src.paper.run explain       # Shapley
+python -m src.paper.export_web        # JSON for the website (results/web/)
+python -m src.paper.run real --mapping config/real_data_mapping.yaml   # real data: zero-shot / fine-tune / retrain
+```
+Results and an honest comparison with the paper: `docs/paper_replication.md`. Real-data guide: `docs/real_data_guide.md`. The Streamlit app still serves the GRU variant.
+
 ## Dashboard
 Pages: Overview, Player Risk Prediction (dataset or hypothetical player, CSV/PDF report), Workload, Wellness, Model Performance, Explainable AI, Dataset Explorer, Research Methodology.
 

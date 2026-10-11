@@ -1,0 +1,185 @@
+{
+  "data_source": "SYNTHETIC",
+  "unit": "probability (permutation Shapley)",
+  "features": [
+    {
+      "feature": "prev_injuries_2seasons",
+      "mean_abs_shapley": 0.03059,
+      "mean_shapley": 0.00878,
+      "modality": "static"
+    },
+    {
+      "feature": "age",
+      "mean_abs_shapley": 0.02074,
+      "mean_shapley": 0.01018,
+      "modality": "static"
+    },
+    {
+      "feature": "strength_asymmetry",
+      "mean_abs_shapley": 0.01422,
+      "mean_shapley": -0.00529,
+      "modality": "static"
+    },
+    {
+      "feature": "season_minutes",
+      "mean_abs_shapley": 0.01064,
+      "mean_shapley": 0.00259,
+      "modality": "static"
+    },
+    {
+      "feature": "bmi",
+      "mean_abs_shapley": 0.01029,
+      "mean_shapley": -0.00282,
+      "modality": "static"
+    },
+    {
+      "feature": "soreness_mean_week",
+      "mean_abs_shapley": 0.00959,
+      "mean_shapley": 0.00062,
+      "modality": "wellness"
+    },
+    {
+      "feature": "avg_rest_days",
+      "mean_abs_shapley": 0.0082,
+      "mean_shapley": 0.00402,
+      "modality": "static"
+    },
+    {
+      "feature": "sleep_mean_week",
+      "mean_abs_shapley": 0.00757,
+      "mean_shapley": 0.00023,
+      "modality": "wellness"
+    },
+    {
+      "feature": "chronic_load",
+      "mean_abs_shapley": 0.00713,
+      "mean_shapley": -0.00013,
+      "modality": "load"
+    },
+    {
+      "feature": "fatigue_mean_week",
+      "mean_abs_shapley": 0.00672,
+      "mean_shapley": 0.0017,
+      "modality": "wellness"
+    },
+    {
+      "feature": "peak_daily_load",
+      "mean_abs_shapley": 0.00645,
+      "mean_shapley": 0.00057,
+      "modality": "load"
+    },
+    {
+      "feature": "acute_load",
+      "mean_abs_shapley": 0.00612,
+      "mean_shapley": -0.00047,
+      "modality": "load"
+    },
+    {
+      "feature": "position",
+      "mean_abs_shapley": 0.00599,
+      "mean_shapley": 0.00244,
+      "modality": "static"
+    },
+    {
+      "feature": "sleep_mean_last3",
+      "mean_abs_shapley": 0.00597,
+      "mean_shapley": 0.00098,
+      "modality": "wellness"
+    },
+    {
+      "feature": "fatigue_mean_last3",
+      "mean_abs_shapley": 0.00595,
+      "mean_shapley": -0.00082,
+      "modality": "wellness"
+    },
+    {
+      "feature": "daily_variability",
+      "mean_abs_shapley": 0.00548,
+      "mean_shapley": -0.00112,
+      "modality": "load"
+    },
+    {
+      "feature": "early_window_mean",
+      "mean_abs_shapley": 0.00521,
+      "mean_shapley": -0.00055,
+      "modality": "load"
+    },
+    {
+      "feature": "soreness_diff_last3_week",
+      "mean_abs_shapley": 0.00442,
+      "mean_shapley": -0.00211,
+      "modality": "wellness"
+    },
+    {
+      "feature": "mood_diff_last3_week",
+      "mean_abs_shapley": 0.00389,
+      "mean_shapley": -4e-05,
+      "modality": "wellness"
+    },
+    {
+      "feature": "soreness_mean_last3",
+      "mean_abs_shapley": 0.00362,
+      "mean_shapley": -0.00123,
+      "modality": "wellness"
+    },
+    {
+      "feature": "fatigue_diff_last3_week",
+      "mean_abs_shapley": 0.00355,
+      "mean_shapley": 0.0005,
+      "modality": "wellness"
+    },
+    {
+      "feature": "mood_mean_week",
+      "mean_abs_shapley": 0.00351,
+      "mean_shapley": -0.00074,
+      "modality": "wellness"
+    },
+    {
+      "feature": "acwr",
+      "mean_abs_shapley": 0.00351,
+      "mean_shapley": -0.00024,
+      "modality": "load"
+    },
+    {
+      "feature": "latest_daily_load",
+      "mean_abs_shapley": 0.00308,
+      "mean_shapley": 0.00021,
+      "modality": "load"
+    },
+    {
+      "feature": "mood_mean_last3",
+      "mean_abs_shapley": 0.00254,
+      "mean_shapley": -0.00049,
+      "modality": "wellness"
+    },
+    {
+      "feature": "sleep_diff_last3_week",
+      "mean_abs_shapley": 0.00169,
+      "mean_shapley": 0.00043,
+      "modality": "wellness"
+    },
+    {
+      "feature": "monotony",
+      "mean_abs_shapley": 0.00141,
+      "mean_shapley": 0.00015,
+      "modality": "load"
+    }
+  ],
+  "modality_share": [
+    {
+      "modality": "static",
+      "importance_pct": 50.82,
+      "label": "Static & medical"
+    },
+    {
+      "modality": "wellness",
+      "importance_pct": 29.8,
+      "label": "Wellness"
+    },
+    {
+      "modality": "load",
+      "importance_pct": 19.38,
+      "label": "Workload"
+    }
+  ]
+}

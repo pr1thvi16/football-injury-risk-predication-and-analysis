@@ -1,0 +1,53 @@
+{
+  "paired_bootstrap_fusion_minus_other": {
+    "LR (static only)": {
+      "mean_diff": 0.025990710283069592,
+      "ci_low": 0.002629736461918153,
+      "ci_high": 0.0492203955221443,
+      "p_a_better": 0.986
+    },
+    "MLP (load only)": {
+      "mean_diff": 0.214676857278463,
+      "ci_low": 0.17044683055771304,
+      "ci_high": 0.26014434665247455,
+      "p_a_better": 1.0
+    },
+    "MLP (wellness only)": {
+      "mean_diff": 0.1225008435387976,
+      "ci_low": 0.08336118677760333,
+      "ci_high": 0.16300299074408756,
+      "p_a_better": 1.0
+    },
+    "LR (early fusion)": {
+      "mean_diff": -0.004061277203600651,
+      "ci_low": -0.017182814718542813,
+      "ci_high": 0.009396965549070586,
+      "p_a_better": 0.271
+    },
+    "Random forest": {
+      "mean_diff": 0.0555000519486853,
+      "ci_low": 0.02727571619371026,
+      "ci_high": 0.08429206753467464,
+      "p_a_better": 1.0
+    },
+    "Gradient boosting": {
+      "mean_diff": 0.025341776999781514,
+      "ci_low": 0.004979173762143532,
+      "ci_high": 0.04686804228974234,
+      "p_a_better": 0.994
+    },
+    "MLP (early fusion)": {
+      "mean_diff": 0.0022783696604962607,
+      "ci_low": -0.018748709242911478,
+      "ci_high": 0.023353553267783173,
+      "p_a_better": 0.581
+    }
+  },
+  "cv_head": {
+    "cv_auc": 0.6760132931379242,
+    "folds": 5
+  },
+  "n_test": 2400,
+  "n_test_positives": 264,
+  "data_source": "SYNTHETIC"
+}

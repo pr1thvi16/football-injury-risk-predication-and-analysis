@@ -1,0 +1,39 @@
+# Settings for the paper-faithful pipeline (src/paper). Values tagged [PAPER] come from the IEEE paper;
+# values tagged [ASSUMPTION] are implementation choices where the paper is silent.
+seed: 42
+data:
+  n_players: 250              # [ASSUMPTION] 250 x 48 = 12,000 player-weeks  [PAPER: 12,000 records]
+  n_weeks: 48
+  prevalence: 0.0898          # [PAPER] 8.98 %  (exact count enforced: 1,078)
+  start_date: "2023-08-07"
+  signal_strength: 1.0        # [ASSUMPTION] scales the observable part of the label logit
+split:
+  strategy: grouped           # [ASSUMPTION] grouped by player (paper Sec V-C warns about repeated-measures leakage); or "random"
+  train: 8160                 # [PAPER]
+  val: 1440                   # [PAPER]
+  test: 2400                  # [PAPER]
+modalities: [static, load, wellness]
+encoder:                      # [PAPER] compact MLP per modality, 16-d embedding from last hidden ReLU layer, L2 + early stopping
+  hidden: [32, 16]            # [ASSUMPTION] first layer width; last layer = 16 [PAPER]
+  alpha: 0.01                 # [ASSUMPTION] L2 strength
+  max_iter: 400
+fusion_head:
+  C: 0.05                     # [PAPER] logistic regression, L2
+baselines:
+  random_forest: {n_estimators: 400, min_samples_leaf: 5}   # [PAPER]
+  mlp_early_fusion: {hidden: [48, 24]}                        # [PAPER]
+  logistic_C: 1.0             # [ASSUMPTION]
+threshold: youden_validation  # [PAPER] Youden's J on validation data
+bootstrap: {n: 1000}          # [PAPER] 1,000 resamples of the test set
+shapley:                      # [PAPER] Monte-Carlo permutation sampling of the whole pipeline
+  background: 60
+  global_instances: 60
+  global_permutations: 12
+  case_permutations: 60
+paths:
+  daily: data/processed/paper_daily.csv
+  injuries: data/processed/paper_injuries.csv
+  static: data/processed/paper_static.csv
+  weeks: data/processed/paper_player_weeks.csv
+  models_dir: models/paper
+  results_dir: results/paper

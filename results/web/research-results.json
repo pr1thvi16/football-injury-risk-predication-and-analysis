@@ -1,0 +1,290 @@
+{
+  "data_source": "SYNTHETIC",
+  "note": "Simulated data; not clinical evidence.",
+  "models": [
+    {
+      "model": "Fusion model",
+      "precision": 0.1504,
+      "recall": 0.8485,
+      "specificity": 0.4078,
+      "f1": 0.2556,
+      "roc_auc": 0.7133,
+      "pr_auc": 0.3001,
+      "brier": 0.0903,
+      "threshold": 0.0597,
+      "tp": 224,
+      "fp": 1265,
+      "tn": 871,
+      "fn": 40,
+      "auc_ci_low": 0.6811,
+      "auc_ci_high": 0.7437,
+      "paper_reported_auc": 0.706
+    },
+    {
+      "model": "LR (static only)",
+      "precision": 0.152,
+      "recall": 0.8106,
+      "specificity": 0.441,
+      "f1": 0.256,
+      "roc_auc": 0.6871,
+      "pr_auc": 0.2987,
+      "brier": 0.09,
+      "threshold": 0.0681,
+      "tp": 214,
+      "fp": 1194,
+      "tn": 942,
+      "fn": 50,
+      "auc_ci_low": 0.6527,
+      "auc_ci_high": 0.7205,
+      "paper_reported_auc": 0.693
+    },
+    {
+      "model": "MLP (load only)",
+      "precision": 0.1164,
+      "recall": 0.6629,
+      "specificity": 0.3783,
+      "f1": 0.1981,
+      "roc_auc": 0.4988,
+      "pr_auc": 0.1074,
+      "brier": 0.0991,
+      "threshold": 0.0888,
+      "tp": 175,
+      "fp": 1328,
+      "tn": 808,
+      "fn": 89,
+      "auc_ci_low": 0.4634,
+      "auc_ci_high": 0.5319,
+      "paper_reported_auc": NaN
+    },
+    {
+      "model": "MLP (wellness only)",
+      "precision": 0.151,
+      "recall": 0.2197,
+      "specificity": 0.8474,
+      "f1": 0.179,
+      "roc_auc": 0.5897,
+      "pr_auc": 0.159,
+      "brier": 0.0972,
+      "threshold": 0.1256,
+      "tp": 58,
+      "fp": 326,
+      "tn": 1810,
+      "fn": 206,
+      "auc_ci_low": 0.5535,
+      "auc_ci_high": 0.6229,
+      "paper_reported_auc": NaN
+    },
+    {
+      "model": "LR (early fusion)",
+      "precision": 0.1343,
+      "recall": 0.8788,
+      "specificity": 0.3001,
+      "f1": 0.233,
+      "roc_auc": 0.7174,
+      "pr_auc": 0.324,
+      "brier": 0.0889,
+      "threshold": 0.0548,
+      "tp": 232,
+      "fp": 1495,
+      "tn": 641,
+      "fn": 32,
+      "auc_ci_low": 0.6856,
+      "auc_ci_high": 0.749,
+      "paper_reported_auc": 0.719
+    },
+    {
+      "model": "Random forest",
+      "precision": 0.151,
+      "recall": 0.6326,
+      "specificity": 0.5604,
+      "f1": 0.2438,
+      "roc_auc": 0.6578,
+      "pr_auc": 0.2166,
+      "brier": 0.0946,
+      "threshold": 0.0878,
+      "tp": 167,
+      "fp": 939,
+      "tn": 1197,
+      "fn": 97,
+      "auc_ci_low": 0.625,
+      "auc_ci_high": 0.6881,
+      "paper_reported_auc": NaN
+    },
+    {
+      "model": "Gradient boosting",
+      "precision": 0.2,
+      "recall": 0.5492,
+      "specificity": 0.7285,
+      "f1": 0.2932,
+      "roc_auc": 0.6882,
+      "pr_auc": 0.2489,
+      "brier": 0.0932,
+      "threshold": 0.0916,
+      "tp": 145,
+      "fp": 580,
+      "tn": 1556,
+      "fn": 119,
+      "auc_ci_low": 0.654,
+      "auc_ci_high": 0.7229,
+      "paper_reported_auc": NaN
+    },
+    {
+      "model": "MLP (early fusion)",
+      "precision": 0.1386,
+      "recall": 0.8788,
+      "specificity": 0.3249,
+      "f1": 0.2394,
+      "roc_auc": 0.7108,
+      "pr_auc": 0.2926,
+      "brier": 0.0907,
+      "threshold": 0.0503,
+      "tp": 232,
+      "fp": 1442,
+      "tn": 694,
+      "fn": 32,
+      "auc_ci_low": 0.6759,
+      "auc_ci_high": 0.7434,
+      "paper_reported_auc": NaN
+    }
+  ],
+  "calibration": [
+    {
+      "quintile": 1,
+      "n": 480,
+      "mean_predicted": 0.034,
+      "observed_rate": 0.0354
+    },
+    {
+      "quintile": 2,
+      "n": 480,
+      "mean_predicted": 0.0533,
+      "observed_rate": 0.0604
+    },
+    {
+      "quintile": 3,
+      "n": 480,
+      "mean_predicted": 0.071,
+      "observed_rate": 0.0958
+    },
+    {
+      "quintile": 4,
+      "n": 480,
+      "mean_predicted": 0.0978,
+      "observed_rate": 0.1104
+    },
+    {
+      "quintile": 5,
+      "n": 480,
+      "mean_predicted": 0.1859,
+      "observed_rate": 0.2479
+    }
+  ],
+  "ablation": [
+    {
+      "ablated_modality": "static",
+      "auc_full": 0.7133,
+      "auc_ablated": 0.5971,
+      "auc_drop": 0.1162
+    },
+    {
+      "ablated_modality": "load",
+      "auc_full": 0.7133,
+      "auc_ablated": 0.7112,
+      "auc_drop": 0.0021
+    },
+    {
+      "ablated_modality": "wellness",
+      "auc_full": 0.7133,
+      "auc_ablated": 0.6755,
+      "auc_drop": 0.0377
+    }
+  ],
+  "subgroups": [
+    {
+      "subgroup": "position=GK",
+      "n": 720,
+      "positives": 75,
+      "roc_auc": 0.7166
+    },
+    {
+      "subgroup": "position=DEF",
+      "n": 384,
+      "positives": 54,
+      "roc_auc": 0.7692
+    },
+    {
+      "subgroup": "position=MID",
+      "n": 576,
+      "positives": 95,
+      "roc_auc": 0.6958
+    },
+    {
+      "subgroup": "position=FWD",
+      "n": 720,
+      "positives": 40,
+      "roc_auc": 0.6758
+    },
+    {
+      "subgroup": "age<=24",
+      "n": 480,
+      "positives": 32,
+      "roc_auc": 0.6609
+    },
+    {
+      "subgroup": "age>=30",
+      "n": 768,
+      "positives": 141,
+      "roc_auc": 0.7346
+    }
+  ],
+  "paired_bootstrap_fusion_minus_other": {
+    "LR (static only)": {
+      "mean_diff": 0.025990710283069592,
+      "ci_low": 0.002629736461918153,
+      "ci_high": 0.0492203955221443,
+      "p_a_better": 0.986
+    },
+    "MLP (load only)": {
+      "mean_diff": 0.214676857278463,
+      "ci_low": 0.17044683055771304,
+      "ci_high": 0.26014434665247455,
+      "p_a_better": 1.0
+    },
+    "MLP (wellness only)": {
+      "mean_diff": 0.1225008435387976,
+      "ci_low": 0.08336118677760333,
+      "ci_high": 0.16300299074408756,
+      "p_a_better": 1.0
+    },
+    "LR (early fusion)": {
+      "mean_diff": -0.004061277203600651,
+      "ci_low": -0.017182814718542813,
+      "ci_high": 0.009396965549070586,
+      "p_a_better": 0.271
+    },
+    "Random forest": {
+      "mean_diff": 0.0555000519486853,
+      "ci_low": 0.02727571619371026,
+      "ci_high": 0.08429206753467464,
+      "p_a_better": 1.0
+    },
+    "Gradient boosting": {
+      "mean_diff": 0.025341776999781514,
+      "ci_low": 0.004979173762143532,
+      "ci_high": 0.04686804228974234,
+      "p_a_better": 0.994
+    },
+    "MLP (early fusion)": {
+      "mean_diff": 0.0022783696604962607,
+      "ci_low": -0.018748709242911478,
+      "ci_high": 0.023353553267783173,
+      "p_a_better": 0.581
+    }
+  },
+  "cv_head": {
+    "cv_auc": 0.6760132931379242,
+    "folds": 5
+  },
+  "n_test": 2400,
+  "n_test_positives": 264
+}

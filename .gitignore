@@ -9,3 +9,7 @@ __pycache__/
 data/processed/*.csv
 models/*.joblib
 models/*.pt
+data/real/
+results/real/
+models/paper/*.joblib
+results/paper/split_*.csv

@@ -1,0 +1,33 @@
+# Copy to config/real_data_mapping.yaml and edit. Real data files stay local (data/real/ is git-ignored).
+# Run:  python -m src.paper.run real --mapping config/real_data_mapping.yaml
+files:
+  daily:    data/real/daily.csv        # one row per player-day (load/wellness/minutes)
+  injuries: data/real/injuries.csv     # one row per TIME-LOSS injury (player id + date)
+  static:   data/real/players.csv      # optional; omit the line to run with load + wellness only
+output_dir: results/real
+
+daily:                                 # right-hand side = YOUR column names
+  player_id: player_id
+  date: date
+  load: session_load                   # OR replace with:  rpe: srpe_col   and   duration_minutes: duration_col
+  minutes_played: minutes              # optional (season minutes feature)
+  wellness: {fatigue: fatigue, sleep: sleep_hours, soreness: soreness, mood: mood}
+injuries:
+  player_id: player_id
+  date: injury_date
+static:                                # any field may be omitted; modality is used when >= 3 fields are present
+  player_id: player_id
+  age: age
+  height_cm: height
+  weight_kg: weight
+  strength_asymmetry: asymmetry
+  prev_injuries_2seasons: prev_injuries
+  position: position
+position_map: {Goalkeeper: GK, Defender: DEF, Midfielder: MID, Forward: FWD}
+
+# Put each wellness item on the canonical scale (fatigue/soreness/mood 1-10, sleep hours).  Example for 1-5 scales:
+wellness_scales: {fatigue: [1, 5], soreness: [1, 5], mood: [1, 5]}
+invert: []                             # items where YOUR scale is the opposite direction (e.g. fatigue where 5 = fresh)
+options:
+  missing_load: nan                    # "nan" = unrecorded day is unknown; "zero" = unrecorded day was rest
+  derive_previous_injuries: true       # count earlier injuries from the injury table when no static column exists
