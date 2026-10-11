@@ -1,5 +1,4 @@
-# Versions below are the ones this project was developed and tested with (Python 3.13).
-# On a Mac CPU: pip install -r requirements.txt  (the default macOS PyTorch wheel is CPU/MPS capable)
+# Python 3.10+; tested target is a Mac CPU environment.
 numpy>=2.0,<3
 pandas>=2.2,<4
 scipy>=1.13
@@ -15,3 +14,4 @@ joblib>=1.4
 PyYAML>=6.0
 reportlab>=4.2
 pytest>=8.0
+requests>=2.32
