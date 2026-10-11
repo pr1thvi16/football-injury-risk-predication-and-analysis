@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+# large regenerable artifacts (recreate with the commands in README.md)
+data/processed/*.csv
+models/*.joblib
+models/*.pt

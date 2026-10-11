@@ -1,0 +1,17 @@
+{
+  "static_dim": 16,
+  "wl_channels": 8,
+  "wl_summary_dim": 7,
+  "wb_channels": 7,
+  "static_hidden": 64,
+  "static_embed": 32,
+  "seq_hidden": 48,
+  "seq_embed": 32,
+  "rnn_type": "gru",
+  "attention": true,
+  "fusion_hidden": [
+    64,
+    32
+  ],
+  "dropout": 0.3
+}

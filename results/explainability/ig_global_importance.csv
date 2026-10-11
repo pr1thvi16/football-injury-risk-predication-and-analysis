@@ -1,0 +1,39 @@
+feature,modality,mean_abs_attribution,mean_signed_attribution
+previous_injury_count,Static & medical,0.45643777,0.11861737
+strength_asymmetry_percent,Static & medical,0.43660933,0.0549635
+workload_monotony (derived),Workload,0.17746632,0.028610533
+sleep_hours (7-day series),Wellness,0.12630373,-0.033872165
+perceived_stress_score (7-day series),Wellness,0.12614769,-0.016659081
+workload_strain (derived),Workload,0.11088185,0.035181466
+acute_workload (derived),Workload,0.11050111,0.06204792
+acute_chronic_workload_ratio (derived),Workload,0.1011218,0.09627896
+fatigue_score (7-day series),Wellness,0.09819675,-0.008879247
+season_minutes_played,Static & medical,0.080493055,-0.047363892
+recovery_score (7-day series),Wellness,0.08012736,-0.019785201
+height_cm,Static & medical,0.07997637,-0.005363105
+bmi,Static & medical,0.078525335,0.0001011852
+previous_injury_days_missed,Static & medical,0.07637013,-0.0011231722
+age,Static & medical,0.07358664,-0.030911537
+weight_kg,Static & medical,0.066600025,-0.0033864055
+average_rest_days,Static & medical,0.062118065,-0.0071066334
+days_since_last_injury,Static & medical,0.059612527,-0.037351344
+muscle_soreness_score (7-day series),Wellness,0.046520535,0.004015652
+total_distance_km (28-day series),Workload,0.044902973,0.0030038052
+position_ST,Static & medical,0.0418481,-0.01091808
+recent_workload_change (derived),Workload,0.038580928,0.031925935
+position_CM,Static & medical,0.032955546,-0.014493563
+position_CB,Static & medical,0.03292159,-0.018924057
+training_duration_minutes (28-day series),Workload,0.031192932,-0.008206852
+workload_variability (derived),Workload,0.028695026,0.008275159
+mood_score (7-day series),Wellness,0.028584521,0.0054875384
+session_training_load (28-day series),Workload,0.027584493,-0.0066136788
+acceleration_count (28-day series),Workload,0.02627566,-0.0075191054
+session_rating_of_perceived_exertion (28-day series),Workload,0.024978463,-0.0029028575
+deceleration_count (28-day series),Workload,0.02425219,-0.003203709
+chronic_workload (derived),Workload,0.022079071,0.001093817
+high_speed_running_distance_km (28-day series),Workload,0.021126915,-0.008378944
+position_W,Static & medical,0.019091602,-0.002991041
+position_GK,Static & medical,0.0166454,0.0005409869
+sprint_distance_km (28-day series),Workload,0.012948739,-0.0050203986
+position_FB,Static & medical,0.012089606,0.005149277
+sleep_quality (7-day series),Wellness,0.009026323,-0.0019356196

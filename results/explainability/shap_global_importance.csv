@@ -1,0 +1,84 @@
+feature,modality,mean_abs_attribution,mean_signed_attribution
+strength_asymmetry_percent,Static & medical,0.40596905,0.00044244487
+acute_chronic_workload_ratio,Workload,0.3182743,-0.13388564
+previous_injury_count,Static & medical,0.26101443,0.02973125
+workload_monotony,Workload,0.23210087,-0.05830488
+recovery_score__mean_7d,Wellness,0.15146442,-0.05823026
+sleep_hours__mean_7d,Wellness,0.118936084,-0.05200246
+previous_injury_days_missed,Static & medical,0.09947654,0.0013582635
+session_training_load__max_28d,Workload,0.09286476,-0.000894705
+workload_strain,Workload,0.0901151,-0.026323471
+recovery_score__slope_7d,Wellness,0.08415889,-0.013293929
+fatigue_score__mean_7d,Wellness,0.06459788,-0.031201215
+training_duration_minutes__mean_7d,Workload,0.06418477,-0.020576226
+perceived_stress_score__mean_7d,Wellness,0.05983098,-0.014449558
+age,Static & medical,0.056096885,-0.008883631
+sleep_quality__std_7d,Wellness,0.05499428,-0.008258912
+total_distance_km__mean_28d,Workload,0.05337502,-0.014852152
+season_minutes_played,Static & medical,0.051854298,-0.014656464
+sleep_hours__slope_7d,Wellness,0.05143581,-0.008475506
+bmi,Static & medical,0.04688657,-0.0053460845
+mood_score__slope_7d,Wellness,0.04533014,-0.008541483
+days_since_last_injury,Static & medical,0.044204462,-0.005098714
+recovery_score__last_day,Wellness,0.043741267,-0.0014169354
+sleep_hours__std_7d,Wellness,0.04315904,-0.0070926943
+muscle_soreness_score__slope_7d,Wellness,0.04299649,-0.01186676
+high_speed_running_distance_km__mean_28d,Workload,0.04191611,-0.018853614
+fatigue_score__std_7d,Wellness,0.041454893,-0.0005629906
+sprint_distance_km__mean_7d,Workload,0.039629217,0.009757706
+acute_workload,Workload,0.03798696,-0.005318605
+height_cm,Static & medical,0.03499516,-0.008260219
+mood_score__mean_7d,Wellness,0.03486676,-0.0010215967
+recovery_score__std_7d,Wellness,0.03379028,-0.004355372
+weight_kg,Static & medical,0.03179138,-0.021315128
+sprint_distance_km__max_28d,Workload,0.030346287,-0.011610092
+recent_workload_change,Workload,0.029997472,-0.011184851
+sprint_distance_km__std_28d,Workload,0.029746078,-0.015746253
+session_rating_of_perceived_exertion__std_28d,Workload,0.027003357,-0.0017574674
+mood_score__std_7d,Wellness,0.02613786,-0.0045396117
+sleep_hours__last_day,Wellness,0.026042275,-0.00024033428
+total_distance_km__max_28d,Workload,0.024870709,-0.006168593
+training_duration_minutes__std_28d,Workload,0.023564003,-0.008179481
+workload_variability,Workload,0.023472536,-0.008426194
+muscle_soreness_score__std_7d,Wellness,0.021140581,-0.007785915
+deceleration_count__mean_28d,Workload,0.020766197,0.001900277
+total_distance_km__std_28d,Workload,0.020338332,-0.007842483
+sprint_distance_km__mean_28d,Workload,0.020110607,-0.01146244
+training_duration_minutes__mean_28d,Workload,0.02002749,-0.0073710578
+perceived_stress_score__slope_7d,Wellness,0.019581245,-0.0022758036
+session_rating_of_perceived_exertion__mean_7d,Workload,0.019399198,-0.009219461
+high_speed_running_distance_km__std_28d,Workload,0.01844064,-0.0027928923
+sleep_quality__slope_7d,Wellness,0.01830955,-0.0016416708
+acceleration_count__std_28d,Workload,0.017310938,-0.0061970386
+sleep_quality__mean_7d,Wellness,0.016672626,-0.008124798
+high_speed_running_distance_km__mean_7d,Workload,0.016667727,-0.0084213745
+acceleration_count__mean_7d,Workload,0.016188942,-0.005579835
+deceleration_count__std_28d,Workload,0.01514343,0.004687857
+fatigue_score__slope_7d,Wellness,0.015079307,-0.003043841
+perceived_stress_score__std_7d,Wellness,0.014663417,-0.0016897543
+chronic_workload,Workload,0.013567337,-0.0031461718
+acceleration_count__mean_28d,Workload,0.0134633,-0.004675233
+total_distance_km__mean_7d,Workload,0.012220845,0.0066386834
+session_rating_of_perceived_exertion__max_28d,Workload,0.011846944,0.0008744275
+high_speed_running_distance_km__max_28d,Workload,0.011823282,0.001998217
+acceleration_count__max_28d,Workload,0.011064697,0.0057514072
+sleep_quality__last_day,Wellness,0.010905073,-0.0012338085
+average_rest_days,Static & medical,0.0105017405,-0.0013738491
+perceived_stress_score__last_day,Wellness,0.010142577,-0.003935911
+deceleration_count__max_28d,Workload,0.009353306,-0.0011894207
+session_training_load__mean_28d,Workload,0.009300884,0.0059700487
+deceleration_count__mean_7d,Workload,0.008386813,0.0016709586
+muscle_soreness_score__mean_7d,Wellness,0.008344066,-0.0034380634
+session_rating_of_perceived_exertion__mean_28d,Workload,0.007468121,0.0006445533
+session_training_load__std_28d,Workload,0.0072631054,-0.0011700767
+training_duration_minutes__max_28d,Workload,0.0058535403,-0.0017948219
+muscle_soreness_score__last_day,Wellness,0.005688801,0.00029968258
+fatigue_score__last_day,Wellness,0.0051704654,-0.0016490597
+mood_score__last_day,Wellness,0.005098718,-0.00062575354
+session_training_load__mean_7d,Workload,0.0044178674,4.8048583e-05
+position_FB,Static & medical,0.0036862947,0.0019587823
+position_ST,Static & medical,0.0018453024,0.00027806946
+position_CM,Static & medical,0.0,0.0
+position_CB,Static & medical,0.0,0.0
+position_W,Static & medical,0.0,0.0
+position_GK,Static & medical,0.0,0.0

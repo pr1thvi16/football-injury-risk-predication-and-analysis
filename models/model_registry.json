@@ -1,0 +1,89 @@
+{
+  "trained_at": "2026-10-10T22:43:27+00:00",
+  "smoke_run": false,
+  "data_label": "SYNTHETIC",
+  "seed": 42,
+  "selected_model": "multimodal_dl",
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost",
+    "mlp",
+    "workload_only",
+    "wellness_only",
+    "static_only",
+    "multimodal_dl"
+  ],
+  "thresholds": {
+    "logistic_regression": 0.14345,
+    "random_forest": 0.17767,
+    "xgboost": 0.16761,
+    "mlp": 0.15672,
+    "workload_only": 0.14811,
+    "wellness_only": 0.10377,
+    "static_only": 0.07256,
+    "multimodal_dl": 0.12612
+  },
+  "threshold_strategy": "val_f1",
+  "pos_weight": 3.1831325574944525,
+  "split": {
+    "strategy": "grouped",
+    "seed": 42,
+    "splits": {
+      "train": {
+        "n_records": 8160,
+        "n_players": 170,
+        "n_positive": 733,
+        "prevalence": 0.08982843137254902
+      },
+      "val": {
+        "n_records": 1440,
+        "n_players": 30,
+        "n_positive": 129,
+        "prevalence": 0.08958333333333333
+      },
+      "test": {
+        "n_records": 2400,
+        "n_players": 50,
+        "n_positive": 216,
+        "prevalence": 0.09
+      }
+    },
+    "record_overlap": {
+      "train&val": 0,
+      "train&test": 0,
+      "val&test": 0
+    },
+    "player_overlap": {
+      "train&val": 0,
+      "train&test": 0,
+      "val&test": 0
+    }
+  },
+  "nn_best_epoch": 8,
+  "nn_epochs_run": 18,
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "sklearn": "1.9.1"
+  },
+  "risk_categories": [
+    {
+      "name": "Low",
+      "lower": 0.0
+    },
+    {
+      "name": "Moderate",
+      "lower": 0.2
+    },
+    {
+      "name": "Elevated",
+      "lower": 0.4
+    },
+    {
+      "name": "High",
+      "lower": 0.6
+    }
+  ],
+  "runtime_seconds": 59.5
+}

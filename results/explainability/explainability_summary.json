@@ -1,0 +1,27 @@
+{
+  "data_label": "SYNTHETIC",
+  "n_explained_rows": 500,
+  "methods": {
+    "shap_tree_xgboost": {
+      "status": "ok",
+      "top_feature": "strength_asymmetry_percent"
+    },
+    "integrated_gradients_multimodal_dl": {
+      "status": "ok",
+      "steps": 32,
+      "completeness_mean_abs_error": 0.008141701109707355,
+      "top_feature": "previous_injury_count"
+    },
+    "permutation": {
+      "status": "ok",
+      "note": "computed on the full held-out test set"
+    },
+    "shap_gradient_explainer_multimodal_dl": {
+      "status": "ok",
+      "n_background": 100,
+      "n_explained": 60
+    }
+  },
+  "example_observation_id": "OBS007240",
+  "caveat": "Attributions describe model behaviour on synthetic data and are not evidence of causation."
+}

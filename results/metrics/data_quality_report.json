@@ -1,0 +1,99 @@
+{
+  "data_label": "SYNTHETIC - not real club data",
+  "n_records": 12000,
+  "n_players": 250,
+  "n_positive": 1078,
+  "prevalence": 0.08983333333333333,
+  "date_range": [
+    "2023-08-07",
+    "2024-07-01"
+  ],
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "schema: all required columns present",
+      "passed": true,
+      "detail": "missing=[]"
+    },
+    {
+      "check": "record count == 12000",
+      "passed": true,
+      "detail": "n=12000"
+    },
+    {
+      "check": "observation_id unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "player_id valid (P###)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no missing values",
+      "passed": true,
+      "detail": "missing cells=0"
+    },
+    {
+      "check": "no duplicate records",
+      "passed": true,
+      "detail": "duplicates=0"
+    },
+    {
+      "check": "no duplicate (player, week) pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no impossible negative measurements",
+      "passed": true,
+      "detail": "cols=[]"
+    },
+    {
+      "check": "position values valid",
+      "passed": true,
+      "detail": "unique=['CB', 'CM', 'FB', 'GK', 'ST', 'W']"
+    },
+    {
+      "check": "wellness scores within documented scales",
+      "passed": true,
+      "detail": "bad=[]"
+    },
+    {
+      "check": "target encoded as {0,1}",
+      "passed": true,
+      "detail": "values=[0, 1]"
+    },
+    {
+      "check": "target prevalence ~ 8.98%",
+      "passed": true,
+      "detail": "prevalence=8.9833%, positives=1078"
+    },
+    {
+      "check": "observation dates valid",
+      "passed": true,
+      "detail": "2023-08-07 -> 2024-07-01"
+    },
+    {
+      "check": "data_source == SYNTHETIC for every row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "derived workload features match their documented formulas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "session_training_load == session_rpe * duration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "feature/target separation (no target-like column in model inputs)",
+      "passed": true,
+      "detail": "suspicious=[]"
+    }
+  ]
+}

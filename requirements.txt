@@ -1,0 +1,17 @@
+# Versions below are the ones this project was developed and tested with (Python 3.13).
+# On a Mac CPU: pip install -r requirements.txt  (the default macOS PyTorch wheel is CPU/MPS capable)
+numpy>=2.0,<3
+pandas>=2.2,<4
+scipy>=1.13
+scikit-learn>=1.5,<2
+xgboost>=2.1
+torch>=2.4
+shap>=0.46
+matplotlib>=3.9
+seaborn>=0.13
+plotly>=5.24
+streamlit>=1.40
+joblib>=1.4
+PyYAML>=6.0
+reportlab>=4.2
+pytest>=8.0

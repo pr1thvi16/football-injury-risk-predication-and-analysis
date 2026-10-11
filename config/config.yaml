@@ -1,0 +1,74 @@
+# Single settings file for the whole project. Every value marked [ASSUMPTION] is an
+# implementation choice, NOT something specified by the research paper.
+project:
+  seed: 42
+  data_label: "SYNTHETIC"
+
+paths:                      # relative to the project root
+  dataset: data/processed/football_injury_dataset.csv
+  sample_dataset: data/sample/football_injury_sample.csv
+  models_dir: models
+  metrics_dir: results/metrics
+  predictions_dir: results/predictions
+  figures_dir: results/figures
+  explain_dir: results/explainability
+
+data:
+  n_players: 250            # 250 players x 48 weekly observations = 12,000 player-weeks
+  n_weeks: 48
+  start_date: "2023-08-07"  # a Monday
+  prevalence: 0.0898        # paper: ~8.98 % -> exactly round(0.0898*12000) = 1,078 positives
+  signal_strength: 1.0      # [ASSUMPTION] scales the observable part of the label logit
+
+split:
+  strategy: grouped         # grouped (unseen players) | random_stratified
+  train_size: 8160          # paper: 68 %
+  val_size: 1440            # paper: 12 %
+  test_size: 2400           # paper: 20 %
+  grouped_candidates: 300   # [ASSUMPTION] seeded candidate player partitions, best-balanced prevalence kept
+
+imbalance:
+  pos_weight_power: 0.5     # [ASSUMPTION] positive weight = (neg/pos)**power, used by every model
+
+threshold:
+  strategy: val_f1          # fixed | val_f1 | val_youden | val_recall_target  (never uses test labels)
+  fixed_value: 0.5
+  recall_target: 0.70
+
+risk_categories:            # illustrative demonstration cut-offs, NOT clinically validated
+  - {name: Low,      lower: 0.00}
+  - {name: Moderate, lower: 0.20}
+  - {name: Elevated, lower: 0.40}
+  - {name: High,     lower: 0.60}
+
+selected_model: multimodal_dl   # model shown by default in the dashboard (chosen a priori, not by test score)
+
+multimodal_model:           # all sizes are [ASSUMPTION]s - the paper does not specify them
+  static_hidden: 64
+  static_embed: 32
+  seq_hidden: 48
+  seq_embed: 32
+  rnn_type: gru             # gru | lstm
+  attention: true
+  fusion_hidden: [64, 32]
+  dropout: 0.3
+
+nn_training:
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  batch_size: 128
+  max_epochs: 60
+  patience: 10
+  grad_clip: 1.0
+
+baselines:
+  random_forest: {n_estimators: 300, max_depth: 10, min_samples_leaf: 5}
+  xgboost: {n_estimators: 300, max_depth: 3, learning_rate: 0.05, subsample: 0.8, colsample_bytree: 0.8}
+  mlp: {hidden_layer_sizes: [64, 32], alpha: 0.001, max_iter: 300}
+  logistic_regression: {C: 0.1, max_iter: 2000}
+
+explainability:
+  n_background: 100
+  n_explain: 500            # test rows used for global attribution
+  ig_steps: 32
+  permutation_repeats: 5

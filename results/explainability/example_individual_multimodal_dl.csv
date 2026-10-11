@@ -1,0 +1,39 @@
+feature,modality,value,attribution,effect
+acute_chronic_workload_ratio (derived),Workload,1.73,0.60988194,raises model output
+workload_strain (derived),Workload,5022.43,0.37394735,raises model output
+acute_workload (derived),Workload,408.57,0.3511163,raises model output
+workload_monotony (derived),Workload,1.76,0.33793974,raises model output
+previous_injury_count,Static & medical,2.00,0.3270014,raises model output
+strength_asymmetry_percent,Static & medical,12.64,0.27206603,raises model output
+sleep_hours (7-day series),Wellness,6.59 (7-day mean),0.21419956,raises model output
+fatigue_score (7-day series),Wellness,5.29 (7-day mean),0.19202876,raises model output
+recent_workload_change (derived),Workload,1.58,0.18828236,raises model output
+position_ST,Static & medical,1.00,-0.17763469,lowers model output
+recovery_score (7-day series),Wellness,53.71 (7-day mean),0.15850903,raises model output
+training_duration_minutes (28-day series),Workload,67.43 (7-day mean),0.153903,raises model output
+session_rating_of_perceived_exertion (28-day series),Workload,5.14 (7-day mean),0.119087756,raises model output
+total_distance_km (28-day series),Workload,6.21 (7-day mean),0.08594585,raises model output
+workload_variability (derived),Workload,1.18,0.063214324,raises model output
+session_training_load (28-day series),Workload,408.57 (7-day mean),0.05508374,raises model output
+perceived_stress_score (7-day series),Wellness,4.57 (7-day mean),0.053434264,raises model output
+previous_injury_days_missed,Static & medical,51.00,0.033081386,raises model output
+average_rest_days,Static & medical,3.50,0.030102495,raises model output
+high_speed_running_distance_km (28-day series),Workload,0.76 (7-day mean),-0.02791365,lowers model output
+acceleration_count (28-day series),Workload,37.14 (7-day mean),0.027447946,raises model output
+bmi,Static & medical,22.94,-0.02352363,lowers model output
+muscle_soreness_score (7-day series),Wellness,3.86 (7-day mean),0.019150257,raises model output
+chronic_workload (derived),Workload,236.04,0.018879864,raises model output
+height_cm,Static & medical,187.10,0.018485358,raises model output
+deceleration_count (28-day series),Workload,45.57 (7-day mean),0.017721362,raises model output
+weight_kg,Static & medical,80.30,0.016944835,raises model output
+days_since_last_injury,Static & medical,511.00,-0.015217134,lowers model output
+mood_score (7-day series),Wellness,6.14 (7-day mean),0.011532105,raises model output
+sleep_quality (7-day series),Wellness,5.71 (7-day mean),0.0067042913,raises model output
+sprint_distance_km (28-day series),Workload,0.25 (7-day mean),0.005235097,raises model output
+age,Static & medical,27.00,0.001689109,raises model output
+season_minutes_played,Static & medical,2543.00,0.0013562499,raises model output
+position_W,Static & medical,0.00,0.0,no effect
+position_GK,Static & medical,0.00,-0.0,no effect
+position_CB,Static & medical,0.00,0.0,no effect
+position_FB,Static & medical,0.00,0.0,no effect
+position_CM,Static & medical,0.00,-0.0,no effect

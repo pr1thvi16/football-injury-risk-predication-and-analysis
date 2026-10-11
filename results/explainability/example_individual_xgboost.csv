@@ -1,0 +1,84 @@
+feature,modality,value,attribution,effect
+acute_chronic_workload_ratio,Workload,1.73,2.0619633,raises model output
+workload_monotony,Workload,1.76,0.33998108,raises model output
+strength_asymmetry_percent,Static & medical,12.64,0.25227964,raises model output
+previous_injury_count,Static & medical,2.00,0.22212926,raises model output
+recovery_score__mean_7d,Wellness,53.71,0.19810276,raises model output
+workload_strain,Workload,5022.43,0.16593048,raises model output
+fatigue_score__mean_7d,Wellness,5.29,0.11865346,raises model output
+training_duration_minutes__mean_7d,Workload,67.43,0.08689095,raises model output
+recovery_score__last_day,Wellness,51.00,-0.08229531,lowers model output
+sleep_hours__mean_7d,Wellness,6.59,0.06756011,raises model output
+previous_injury_days_missed,Static & medical,51.00,0.060460962,raises model output
+season_minutes_played,Static & medical,2543.00,0.057228953,raises model output
+workload_variability,Workload,1.18,-0.056408707,lowers model output
+recovery_score__slope_7d,Wellness,-1.96,0.05513749,raises model output
+total_distance_km__mean_28d,Workload,3.54,-0.04854266,lowers model output
+recovery_score__std_7d,Wellness,5.50,0.04731116,raises model output
+session_rating_of_perceived_exertion__mean_7d,Workload,5.14,0.0468636,raises model output
+sprint_distance_km__mean_7d,Workload,0.25,-0.042696264,lowers model output
+age,Static & medical,27.00,-0.042240687,lowers model output
+days_since_last_injury,Static & medical,511.00,0.040387943,raises model output
+fatigue_score__last_day,Wellness,6.00,0.039603885,raises model output
+acute_workload,Workload,408.57,0.037399836,raises model output
+sprint_distance_km__max_28d,Workload,0.49,-0.035979625,lowers model output
+deceleration_count__mean_7d,Workload,45.57,-0.02934964,lowers model output
+training_duration_minutes__std_28d,Workload,40.10,-0.028663695,lowers model output
+mood_score__std_7d,Wellness,0.83,0.02737364,raises model output
+sprint_distance_km__std_28d,Workload,0.17,-0.026259774,lowers model output
+training_duration_minutes__mean_28d,Workload,38.21,-0.024644513,lowers model output
+session_training_load__max_28d,Workload,760.00,0.024151843,raises model output
+sleep_hours__std_7d,Wellness,0.35,0.023014396,raises model output
+weight_kg,Static & medical,80.30,-0.022393014,lowers model output
+average_rest_days,Static & medical,3.50,0.021014363,raises model output
+high_speed_running_distance_km__mean_28d,Workload,0.45,-0.020893205,lowers model output
+sprint_distance_km__mean_28d,Workload,0.14,-0.020657096,lowers model output
+high_speed_running_distance_km__std_28d,Workload,0.51,0.020539567,raises model output
+muscle_soreness_score__std_7d,Wellness,0.83,-0.01982817,lowers model output
+sleep_quality__std_7d,Wellness,0.70,0.019341802,raises model output
+perceived_stress_score__std_7d,Wellness,0.49,-0.019304369,lowers model output
+total_distance_km__max_28d,Workload,9.39,-0.018563824,lowers model output
+position_ST,Static & medical,1.00,0.017710768,raises model output
+acceleration_count__mean_28d,Workload,21.64,-0.016714461,lowers model output
+high_speed_running_distance_km__mean_7d,Workload,0.76,0.015595797,raises model output
+acceleration_count__mean_7d,Workload,37.14,-0.014290068,lowers model output
+muscle_soreness_score__last_day,Wellness,5.00,-0.014127655,lowers model output
+high_speed_running_distance_km__max_28d,Workload,1.50,-0.013373382,lowers model output
+sleep_hours__last_day,Wellness,6.40,-0.013269572,lowers model output
+perceived_stress_score__mean_7d,Wellness,4.57,0.013228518,raises model output
+session_rating_of_perceived_exertion__max_28d,Workload,8.00,-0.013193366,lowers model output
+acceleration_count__std_28d,Workload,23.66,0.012818051,raises model output
+fatigue_score__std_7d,Wellness,0.70,-0.012721134,lowers model output
+deceleration_count__std_28d,Workload,28.09,-0.012253936,lowers model output
+session_training_load__mean_28d,Workload,236.04,0.011563005,raises model output
+session_rating_of_perceived_exertion__std_28d,Workload,3.16,0.011429545,raises model output
+fatigue_score__slope_7d,Wellness,-0.04,-0.010783443,lowers model output
+muscle_soreness_score__slope_7d,Wellness,0.36,0.0105641745,raises model output
+mood_score__mean_7d,Wellness,6.14,0.010431528,raises model output
+mood_score__slope_7d,Wellness,0.11,-0.010379941,lowers model output
+sleep_quality__mean_7d,Wellness,5.71,0.00968256,raises model output
+height_cm,Static & medical,187.10,-0.009355007,lowers model output
+session_rating_of_perceived_exertion__mean_28d,Workload,2.96,-0.009263645,lowers model output
+deceleration_count__mean_28d,Workload,25.14,-0.008822711,lowers model output
+total_distance_km__mean_7d,Workload,6.21,0.008682545,raises model output
+recent_workload_change,Workload,1.58,0.0084533915,raises model output
+total_distance_km__std_28d,Workload,3.80,0.00810776,raises model output
+bmi,Static & medical,22.94,0.006483373,raises model output
+muscle_soreness_score__mean_7d,Wellness,3.86,-0.005204166,lowers model output
+perceived_stress_score__slope_7d,Wellness,0.11,0.0046047224,raises model output
+training_duration_minutes__max_28d,Workload,96.00,-0.0038657465,lowers model output
+perceived_stress_score__last_day,Wellness,5.00,0.003672854,raises model output
+chronic_workload,Workload,236.04,0.0030441065,raises model output
+position_FB,Static & medical,0.00,0.0029466855,raises model output
+acceleration_count__max_28d,Workload,64.00,-0.0024154175,lowers model output
+session_training_load__std_28d,Workload,272.46,-0.002330976,lowers model output
+sleep_hours__slope_7d,Wellness,-0.12,-0.0019506875,lowers model output
+deceleration_count__max_28d,Workload,79.00,-0.0018457065,lowers model output
+sleep_quality__last_day,Wellness,6.00,-0.00088638556,lowers model output
+mood_score__last_day,Wellness,7.00,-0.00082231936,lowers model output
+sleep_quality__slope_7d,Wellness,0.11,0.0007593702,raises model output
+session_training_load__mean_7d,Workload,408.57,-0.0006651543,lowers model output
+position_CM,Static & medical,0.00,0.0,no effect
+position_CB,Static & medical,0.00,0.0,no effect
+position_W,Static & medical,0.00,0.0,no effect
+position_GK,Static & medical,0.00,0.0,no effect
