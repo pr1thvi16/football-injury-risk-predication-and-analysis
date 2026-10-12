@@ -18,3 +18,10 @@ Converted with `python -m src.paper.soccermon` (injury episode = report with no 
 
 ## Jovanovic (2018) sample data and code
 [Data-Preparation-for-Injury-Prediction](https://github.com/mladenjovanovic/Data-Preparation-for-Injury-Prediction) (SPSR 34). Download `Monitoring Data with Injuries (raw/processed).csv` into `data/sample_external/jovanovic_{raw,processed}.csv`. `src/paper/jovanovic.py` ports his R preparation (EMA acute 7 d / chronic 42 d lagged 7 d, ACWR, 7-day ACWR peak) and reproduces his processed file exactly (tested). The sample has **3 players, 307 days each, 8 injuries (6 non-contact), no wellness, no static fields**; through our weekly builder it yields 117 player-weeks with 6 positives. That is a teaching sample: useful for validating feature code, not for training or evaluating a model. No licence is stated, so the data is not committed.
+
+## Other public samples checked (Oct 2026)
+- **Jovanovic hamstring sample** ([repo](https://github.com/mladenjovanovic/predicting-hamstring-injuries), MIT): 6 athletes x 2 seasons, 3 unnamed load metrics, 6 non-contact hamstring injuries (the full study had 52 athletes / 25 injuries, not published). Through the weekly builder: 398 player-weeks, 6 positives. Plumbing test only; load metrics are unnamed, so it must not be pooled with other cohorts.
+- **TACKLE** ([Zenodo 16962280](https://zenodo.org/records/16962280), CC BY 4.0): 11 players, 23 sessions, smart-shinguard athletic/technical metrics, questionnaires, screening. No injury labels stated.
+- **Forecasting extremes of match performance** ([Zenodo 13825387](https://zenodo.org/records/13825387)): one athlete's GPS traces. No injuries.
+- **One-footballer wellness audit** ([Zenodo 21257361](https://zenodo.org/records/21257361)): one athlete, N=180 days; no injuries mentioned.
+- Zenodo 21498460 (Premier League congestion): could not be read (rate-limited); unverified.
