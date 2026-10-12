@@ -1,0 +1,14 @@
+daily:
+  date: date
+  load: load
+  player_id: player_id
+files:
+  daily: data/real/jov_daily.csv
+  injuries: data/real/jov_injuries.csv
+injuries:
+  date: injury_date
+  player_id: player_id
+options:
+  min_wellness_days: 0
+  missing_load: nan
+output_dir: results/real

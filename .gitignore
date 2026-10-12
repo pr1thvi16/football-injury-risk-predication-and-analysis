@@ -13,3 +13,5 @@ data/real/
 results/real/
 models/paper/*.joblib
 results/paper/split_*.csv
+data/sample_external/
+data/real/
