@@ -1,0 +1,47 @@
+{
+  "paired_bootstrap_fusion_minus_other": {
+    "MLP (load only)": {
+      "mean_diff": 0.10153255037015668,
+      "ci_low": 0.05095820088730747,
+      "ci_high": 0.14664090823914236,
+      "p_a_better": 1.0
+    },
+    "MLP (wellness only)": {
+      "mean_diff": 0.008143640473735952,
+      "ci_low": -0.013206078837945435,
+      "ci_high": 0.03169449785425291,
+      "p_a_better": 0.7
+    },
+    "LR (early fusion)": {
+      "mean_diff": -0.0015940605638586757,
+      "ci_low": -0.018217760516869415,
+      "ci_high": 0.020376739535502526,
+      "p_a_better": 0.42
+    },
+    "Random forest": {
+      "mean_diff": 0.06581904545496131,
+      "ci_low": 0.03173108690241391,
+      "ci_high": 0.09605190271159421,
+      "p_a_better": 1.0
+    },
+    "Gradient boosting": {
+      "mean_diff": 0.03936721260009961,
+      "ci_low": 0.007748951174006039,
+      "ci_high": 0.0682210730332831,
+      "p_a_better": 0.99
+    },
+    "MLP (early fusion)": {
+      "mean_diff": -0.011384972379020914,
+      "ci_low": -0.03658594233436111,
+      "ci_high": 0.013924668052079318,
+      "p_a_better": 0.19
+    }
+  },
+  "cv_head": {
+    "cv_auc": 0.606704408286188,
+    "folds": 5
+  },
+  "n_test": 2400,
+  "n_test_positives": 264,
+  "data_source": "SYNTHETIC"
+}

@@ -1,0 +1,12 @@
+# SoccerMon (subjective release). Wellness 1-5 where 5 = best -> fatigue/soreness inverted so higher = worse.
+files: {daily: data/real/daily.csv, injuries: data/real/injuries.csv}
+output_dir: results/real
+daily:
+  player_id: player_id
+  date: date
+  load: load
+  wellness: {fatigue: fatigue, sleep: sleep, soreness: soreness, mood: mood}
+injuries: {player_id: player_id, date: injury_date}
+wellness_scales: {fatigue: [1, 5], soreness: [1, 5], mood: [1, 5]}
+invert: [fatigue, soreness]
+options: {missing_load: nan, derive_previous_injuries: true}
