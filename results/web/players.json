@@ -7,17 +7,8 @@
       "position": "MID",
       "age": 32.0,
       "acwr": 0.642,
-      "risk": 0.306,
+      "risk": 0.302,
       "injury_next_7_days": 1
-    },
-    {
-      "player_id": "P205",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 31.0,
-      "acwr": 0.691,
-      "risk": 0.267,
-      "injury_next_7_days": 0
     },
     {
       "player_id": "P175",
@@ -25,16 +16,16 @@
       "position": "GK",
       "age": 31.1,
       "acwr": 1.623,
-      "risk": 0.255,
+      "risk": 0.241,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P058",
+      "player_id": "P205",
       "observation_date": "2024-07-29",
       "position": "GK",
-      "age": 27.9,
-      "acwr": 0.631,
-      "risk": 0.226,
+      "age": 31.0,
+      "acwr": 0.691,
+      "risk": 0.223,
       "injury_next_7_days": 0
     },
     {
@@ -43,70 +34,7 @@
       "position": "GK",
       "age": 35.2,
       "acwr": 0.559,
-      "risk": 0.209,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P237",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 26.5,
-      "acwr": 0.898,
-      "risk": 0.186,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P227",
-      "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 31.1,
-      "acwr": 1.097,
-      "risk": 0.16,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P163",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 28.7,
-      "acwr": 1.129,
-      "risk": 0.152,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P049",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 25.4,
-      "acwr": 1.284,
-      "risk": 0.137,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P137",
-      "observation_date": "2024-07-29",
-      "position": "DEF",
-      "age": 33.2,
-      "acwr": 0.72,
-      "risk": 0.122,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P230",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 24.8,
-      "acwr": 0.911,
-      "risk": 0.121,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P195",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 24.3,
-      "acwr": 0.575,
-      "risk": 0.119,
+      "risk": 0.196,
       "injury_next_7_days": 0
     },
     {
@@ -115,15 +43,78 @@
       "position": "MID",
       "age": 20.1,
       "acwr": 2.087,
-      "risk": 0.117,
+      "risk": 0.17,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P181",
+      "player_id": "P058",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 27.9,
+      "acwr": 0.631,
+      "risk": 0.168,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P227",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 31.1,
+      "acwr": 1.097,
+      "risk": 0.163,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P237",
       "observation_date": "2024-07-29",
       "position": "FWD",
-      "age": 24.0,
-      "acwr": 1.333,
+      "age": 26.5,
+      "acwr": 0.898,
+      "risk": 0.158,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P163",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 28.7,
+      "acwr": 1.129,
+      "risk": 0.146,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P195",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 24.3,
+      "acwr": 0.575,
+      "risk": 0.146,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P140",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 32.0,
+      "acwr": 1.227,
+      "risk": 0.138,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P049",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 25.4,
+      "acwr": 1.284,
+      "risk": 0.12,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P137",
+      "observation_date": "2024-07-29",
+      "position": "DEF",
+      "age": 33.2,
+      "acwr": 0.72,
       "risk": 0.116,
       "injury_next_7_days": 0
     },
@@ -133,97 +124,16 @@
       "position": "MID",
       "age": 25.5,
       "acwr": 1.091,
-      "risk": 0.11,
+      "risk": 0.115,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P190",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 28.5,
-      "acwr": 1.173,
-      "risk": 0.105,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P031",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 26.1,
-      "acwr": 0.891,
-      "risk": 0.103,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P140",
-      "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 32.0,
-      "acwr": 1.227,
-      "risk": 0.103,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P097",
+      "player_id": "P230",
       "observation_date": "2024-07-29",
       "position": "GK",
-      "age": 31.4,
-      "acwr": 0.935,
-      "risk": 0.102,
-      "injury_next_7_days": 1
-    },
-    {
-      "player_id": "P194",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 24.0,
-      "acwr": 1.272,
-      "risk": 0.098,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P044",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 24.5,
-      "acwr": 0.554,
-      "risk": 0.093,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P077",
-      "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 30.7,
-      "acwr": 0.612,
-      "risk": 0.092,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P176",
-      "observation_date": "2024-07-29",
-      "position": "DEF",
-      "age": 32.1,
-      "acwr": 0.636,
-      "risk": 0.089,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P036",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 21.8,
-      "acwr": 1.169,
-      "risk": 0.087,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P109",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 28.0,
-      "acwr": 0.746,
-      "risk": 0.085,
+      "age": 24.8,
+      "acwr": 0.911,
+      "risk": 0.114,
       "injury_next_7_days": 0
     },
     {
@@ -232,6 +142,132 @@
       "position": "FWD",
       "age": 34.2,
       "acwr": 0.91,
+      "risk": 0.111,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P194",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 24.0,
+      "acwr": 1.272,
+      "risk": 0.108,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P097",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 31.4,
+      "acwr": 0.935,
+      "risk": 0.106,
+      "injury_next_7_days": 1
+    },
+    {
+      "player_id": "P176",
+      "observation_date": "2024-07-29",
+      "position": "DEF",
+      "age": 32.1,
+      "acwr": 0.636,
+      "risk": 0.1,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P235",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 31.0,
+      "acwr": 1.16,
+      "risk": 0.1,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P109",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 28.0,
+      "acwr": 0.746,
+      "risk": 0.097,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P077",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 30.7,
+      "acwr": 0.612,
+      "risk": 0.095,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P031",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 26.1,
+      "acwr": 0.891,
+      "risk": 0.092,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P041",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 30.4,
+      "acwr": 1.351,
+      "risk": 0.089,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P181",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 24.0,
+      "acwr": 1.333,
+      "risk": 0.088,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P113",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 31.0,
+      "acwr": 0.684,
+      "risk": 0.088,
+      "injury_next_7_days": 1
+    },
+    {
+      "player_id": "P164",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 25.4,
+      "acwr": 0.804,
+      "risk": 0.086,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P190",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 28.5,
+      "acwr": 1.173,
+      "risk": 0.085,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P047",
+      "observation_date": "2024-07-29",
+      "position": "DEF",
+      "age": 25.3,
+      "acwr": 1.592,
+      "risk": 0.083,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P036",
+      "observation_date": "2024-07-29",
+      "position": "GK",
+      "age": 21.8,
+      "acwr": 1.169,
       "risk": 0.083,
       "injury_next_7_days": 0
     },
@@ -241,52 +277,25 @@
       "position": "FWD",
       "age": 24.2,
       "acwr": 1.164,
-      "risk": 0.081,
+      "risk": 0.079,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P235",
+      "player_id": "P044",
       "observation_date": "2024-07-29",
       "position": "FWD",
-      "age": 31.0,
-      "acwr": 1.16,
-      "risk": 0.077,
+      "age": 24.5,
+      "acwr": 0.554,
+      "risk": 0.076,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P047",
-      "observation_date": "2024-07-29",
-      "position": "DEF",
-      "age": 25.3,
-      "acwr": 1.592,
-      "risk": 0.075,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P113",
-      "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 31.0,
-      "acwr": 0.684,
-      "risk": 0.069,
-      "injury_next_7_days": 1
-    },
-    {
-      "player_id": "P041",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 30.4,
-      "acwr": 1.351,
-      "risk": 0.066,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P015",
+      "player_id": "P216",
       "observation_date": "2024-07-29",
       "position": "GK",
-      "age": 28.3,
-      "acwr": 0.885,
-      "risk": 0.065,
+      "age": 22.9,
+      "acwr": 1.17,
+      "risk": 0.072,
       "injury_next_7_days": 0
     },
     {
@@ -295,7 +304,7 @@
       "position": "MID",
       "age": 19.8,
       "acwr": 0.615,
-      "risk": 0.064,
+      "risk": 0.068,
       "injury_next_7_days": 0
     },
     {
@@ -304,25 +313,7 @@
       "position": "FWD",
       "age": 28.5,
       "acwr": 1.17,
-      "risk": 0.06,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P164",
-      "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 25.4,
-      "acwr": 0.804,
-      "risk": 0.058,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P231",
-      "observation_date": "2024-07-29",
-      "position": "DEF",
-      "age": 25.3,
-      "acwr": 0.681,
-      "risk": 0.057,
+      "risk": 0.067,
       "injury_next_7_days": 0
     },
     {
@@ -331,34 +322,16 @@
       "position": "FWD",
       "age": 28.0,
       "acwr": 1.038,
-      "risk": 0.057,
+      "risk": 0.066,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P182",
+      "player_id": "P231",
       "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 20.3,
-      "acwr": 0.539,
-      "risk": 0.056,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P030",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 27.8,
-      "acwr": 1.217,
-      "risk": 0.053,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P035",
-      "observation_date": "2024-07-29",
-      "position": "GK",
-      "age": 23.3,
-      "acwr": 0.783,
-      "risk": 0.052,
+      "position": "DEF",
+      "age": 25.3,
+      "acwr": 0.681,
+      "risk": 0.066,
       "injury_next_7_days": 0
     },
     {
@@ -367,7 +340,16 @@
       "position": "DEF",
       "age": 28.2,
       "acwr": 1.197,
-      "risk": 0.05,
+      "risk": 0.064,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P030",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 27.8,
+      "acwr": 1.217,
+      "risk": 0.062,
       "injury_next_7_days": 0
     },
     {
@@ -376,25 +358,16 @@
       "position": "MID",
       "age": 24.9,
       "acwr": 1.023,
-      "risk": 0.048,
+      "risk": 0.059,
       "injury_next_7_days": 1
     },
     {
-      "player_id": "P216",
+      "player_id": "P015",
       "observation_date": "2024-07-29",
       "position": "GK",
-      "age": 22.9,
-      "acwr": 1.17,
-      "risk": 0.047,
-      "injury_next_7_days": 0
-    },
-    {
-      "player_id": "P193",
-      "observation_date": "2024-07-29",
-      "position": "FWD",
-      "age": 30.4,
-      "acwr": 0.727,
-      "risk": 0.037,
+      "age": 28.3,
+      "acwr": 0.885,
+      "risk": 0.058,
       "injury_next_7_days": 0
     },
     {
@@ -403,16 +376,25 @@
       "position": "DEF",
       "age": 28.1,
       "acwr": 1.113,
-      "risk": 0.037,
+      "risk": 0.058,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P110",
+      "player_id": "P035",
       "observation_date": "2024-07-29",
-      "position": "DEF",
-      "age": 30.1,
-      "acwr": 1.215,
-      "risk": 0.036,
+      "position": "GK",
+      "age": 23.3,
+      "acwr": 0.783,
+      "risk": 0.056,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P193",
+      "observation_date": "2024-07-29",
+      "position": "FWD",
+      "age": 30.4,
+      "acwr": 0.727,
+      "risk": 0.053,
       "injury_next_7_days": 0
     },
     {
@@ -421,7 +403,7 @@
       "position": "DEF",
       "age": 29.8,
       "acwr": 1.369,
-      "risk": 0.035,
+      "risk": 0.051,
       "injury_next_7_days": 0
     },
     {
@@ -430,16 +412,16 @@
       "position": "FWD",
       "age": 18.1,
       "acwr": 0.747,
-      "risk": 0.034,
+      "risk": 0.048,
       "injury_next_7_days": 0
     },
     {
-      "player_id": "P064",
+      "player_id": "P110",
       "observation_date": "2024-07-29",
-      "position": "MID",
-      "age": 22.1,
-      "acwr": 1.039,
-      "risk": 0.029,
+      "position": "DEF",
+      "age": 30.1,
+      "acwr": 1.215,
+      "risk": 0.042,
       "injury_next_7_days": 0
     },
     {
@@ -448,7 +430,25 @@
       "position": "GK",
       "age": 27.0,
       "acwr": 0.785,
-      "risk": 0.028,
+      "risk": 0.038,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P064",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 22.1,
+      "acwr": 1.039,
+      "risk": 0.037,
+      "injury_next_7_days": 0
+    },
+    {
+      "player_id": "P182",
+      "observation_date": "2024-07-29",
+      "position": "MID",
+      "age": 20.3,
+      "acwr": 0.539,
+      "risk": 0.033,
       "injury_next_7_days": 0
     }
   ]

@@ -3,289 +3,289 @@
   "weeks": [
     {
       "week_index": 0,
-      "mean_risk": 0.0689,
+      "mean_risk": 0.0735,
       "mean_acwr": 1.0021,
       "injuries": 5
     },
     {
       "week_index": 1,
-      "mean_risk": 0.0689,
+      "mean_risk": 0.074,
       "mean_acwr": 0.9781,
       "injuries": 3
     },
     {
       "week_index": 2,
-      "mean_risk": 0.0702,
+      "mean_risk": 0.0742,
       "mean_acwr": 0.9732,
       "injuries": 7
     },
     {
       "week_index": 3,
-      "mean_risk": 0.0765,
+      "mean_risk": 0.0807,
       "mean_acwr": 1.1205,
       "injuries": 11
     },
     {
       "week_index": 4,
-      "mean_risk": 0.074,
+      "mean_risk": 0.0769,
       "mean_acwr": 0.995,
       "injuries": 3
     },
     {
       "week_index": 5,
-      "mean_risk": 0.0733,
+      "mean_risk": 0.0759,
       "mean_acwr": 1.0407,
       "injuries": 5
     },
     {
       "week_index": 6,
-      "mean_risk": 0.0751,
+      "mean_risk": 0.0762,
       "mean_acwr": 0.915,
       "injuries": 4
     },
     {
       "week_index": 7,
-      "mean_risk": 0.0687,
+      "mean_risk": 0.0708,
       "mean_acwr": 0.9722,
       "injuries": 1
     },
     {
       "week_index": 8,
-      "mean_risk": 0.0831,
+      "mean_risk": 0.0839,
       "mean_acwr": 1.044,
       "injuries": 3
     },
     {
       "week_index": 9,
-      "mean_risk": 0.0783,
+      "mean_risk": 0.0782,
       "mean_acwr": 0.9363,
       "injuries": 3
     },
     {
       "week_index": 10,
-      "mean_risk": 0.0827,
+      "mean_risk": 0.081,
       "mean_acwr": 1.0242,
       "injuries": 4
     },
     {
       "week_index": 11,
-      "mean_risk": 0.0854,
+      "mean_risk": 0.0819,
       "mean_acwr": 1.042,
       "injuries": 9
     },
     {
       "week_index": 12,
-      "mean_risk": 0.0805,
+      "mean_risk": 0.0771,
       "mean_acwr": 0.9854,
       "injuries": 4
     },
     {
       "week_index": 13,
-      "mean_risk": 0.083,
+      "mean_risk": 0.0817,
       "mean_acwr": 0.9901,
       "injuries": 3
     },
     {
       "week_index": 14,
-      "mean_risk": 0.0904,
+      "mean_risk": 0.089,
       "mean_acwr": 1.007,
       "injuries": 5
     },
     {
       "week_index": 15,
-      "mean_risk": 0.0806,
+      "mean_risk": 0.0859,
       "mean_acwr": 0.9723,
       "injuries": 5
     },
     {
       "week_index": 16,
-      "mean_risk": 0.0818,
+      "mean_risk": 0.0835,
       "mean_acwr": 0.886,
       "injuries": 5
     },
     {
       "week_index": 17,
-      "mean_risk": 0.0896,
+      "mean_risk": 0.0906,
       "mean_acwr": 1.1253,
       "injuries": 6
     },
     {
       "week_index": 18,
-      "mean_risk": 0.0893,
+      "mean_risk": 0.0883,
       "mean_acwr": 1.0068,
       "injuries": 7
     },
     {
       "week_index": 19,
-      "mean_risk": 0.0966,
+      "mean_risk": 0.0943,
       "mean_acwr": 1.0615,
       "injuries": 6
     },
     {
       "week_index": 20,
-      "mean_risk": 0.0854,
+      "mean_risk": 0.0875,
       "mean_acwr": 0.9115,
       "injuries": 2
     },
     {
       "week_index": 21,
-      "mean_risk": 0.0862,
+      "mean_risk": 0.0866,
       "mean_acwr": 0.9353,
       "injuries": 5
     },
     {
       "week_index": 22,
-      "mean_risk": 0.0854,
+      "mean_risk": 0.0836,
       "mean_acwr": 0.9908,
       "injuries": 4
     },
     {
       "week_index": 23,
-      "mean_risk": 0.0856,
+      "mean_risk": 0.0845,
       "mean_acwr": 1.1036,
       "injuries": 6
     },
     {
       "week_index": 24,
-      "mean_risk": 0.0903,
+      "mean_risk": 0.0912,
       "mean_acwr": 1.0424,
       "injuries": 9
     },
     {
       "week_index": 25,
-      "mean_risk": 0.0879,
+      "mean_risk": 0.0856,
       "mean_acwr": 1.0078,
       "injuries": 2
     },
     {
       "week_index": 26,
-      "mean_risk": 0.0918,
+      "mean_risk": 0.0896,
       "mean_acwr": 0.9349,
       "injuries": 3
     },
     {
       "week_index": 27,
-      "mean_risk": 0.0869,
+      "mean_risk": 0.0868,
       "mean_acwr": 0.9092,
       "injuries": 2
     },
     {
       "week_index": 28,
-      "mean_risk": 0.0887,
+      "mean_risk": 0.0907,
       "mean_acwr": 0.9922,
       "injuries": 6
     },
     {
       "week_index": 29,
-      "mean_risk": 0.0808,
+      "mean_risk": 0.0834,
       "mean_acwr": 1.0169,
       "injuries": 5
     },
     {
       "week_index": 30,
-      "mean_risk": 0.094,
+      "mean_risk": 0.0909,
       "mean_acwr": 1.0496,
       "injuries": 8
     },
     {
       "week_index": 31,
-      "mean_risk": 0.0931,
+      "mean_risk": 0.0928,
       "mean_acwr": 1.028,
       "injuries": 6
     },
     {
       "week_index": 32,
-      "mean_risk": 0.0947,
+      "mean_risk": 0.094,
       "mean_acwr": 1.0123,
       "injuries": 4
     },
     {
       "week_index": 33,
-      "mean_risk": 0.0924,
+      "mean_risk": 0.0941,
       "mean_acwr": 0.9901,
       "injuries": 5
     },
     {
       "week_index": 34,
-      "mean_risk": 0.0941,
+      "mean_risk": 0.0958,
       "mean_acwr": 0.9777,
       "injuries": 5
     },
     {
       "week_index": 35,
-      "mean_risk": 0.1015,
+      "mean_risk": 0.0988,
       "mean_acwr": 1.0248,
       "injuries": 8
     },
     {
       "week_index": 36,
-      "mean_risk": 0.1001,
+      "mean_risk": 0.0983,
       "mean_acwr": 0.9288,
       "injuries": 8
     },
     {
       "week_index": 37,
-      "mean_risk": 0.1053,
+      "mean_risk": 0.1064,
       "mean_acwr": 1.0142,
       "injuries": 8
     },
     {
       "week_index": 38,
-      "mean_risk": 0.0971,
+      "mean_risk": 0.0962,
       "mean_acwr": 1.0159,
       "injuries": 13
     },
     {
       "week_index": 39,
-      "mean_risk": 0.101,
+      "mean_risk": 0.0987,
       "mean_acwr": 1.0176,
       "injuries": 6
     },
     {
       "week_index": 40,
-      "mean_risk": 0.0994,
+      "mean_risk": 0.0969,
       "mean_acwr": 1.0066,
       "injuries": 9
     },
     {
       "week_index": 41,
-      "mean_risk": 0.1008,
+      "mean_risk": 0.1049,
       "mean_acwr": 1.0419,
       "injuries": 3
     },
     {
       "week_index": 42,
-      "mean_risk": 0.099,
+      "mean_risk": 0.0988,
       "mean_acwr": 0.9569,
       "injuries": 8
     },
     {
       "week_index": 43,
-      "mean_risk": 0.0994,
+      "mean_risk": 0.1002,
       "mean_acwr": 1.006,
       "injuries": 7
     },
     {
       "week_index": 44,
-      "mean_risk": 0.0995,
+      "mean_risk": 0.099,
       "mean_acwr": 0.9918,
       "injuries": 4
     },
     {
       "week_index": 45,
-      "mean_risk": 0.1076,
+      "mean_risk": 0.1078,
       "mean_acwr": 1.0667,
       "injuries": 5
     },
     {
       "week_index": 46,
-      "mean_risk": 0.1002,
+      "mean_risk": 0.1019,
       "mean_acwr": 0.9665,
       "injuries": 10
     },
     {
       "week_index": 47,
-      "mean_risk": 0.0982,
+      "mean_risk": 0.1016,
       "mean_acwr": 0.9893,
       "injuries": 4
     }

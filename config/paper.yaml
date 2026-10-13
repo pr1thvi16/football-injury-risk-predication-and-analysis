@@ -15,7 +15,7 @@ split:
 modalities: [static, load, wellness]
 encoder:                      # [PAPER] compact MLP per modality, 16-d embedding from last hidden ReLU layer, L2 + early stopping
   hidden: [32, 16]            # [ASSUMPTION] first layer width; last layer = 16 [PAPER]
-  alpha: 0.01                 # [ASSUMPTION] L2 strength
+  alpha: 1.0                  # L2 strength; chosen on VALIDATION AUC (results/paper/tuning_validation.csv); was 0.01
   max_iter: 400
 fusion_head:
   C: 0.05                     # [PAPER] logistic regression, L2
